@@ -1,0 +1,278 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-image: url(background/bg.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    color: white;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.2em;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#logo {
+    width: 650px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#popupNav {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Menengahkan konten */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.popup-logo-outside {
+    width: 45px; /* Sesuaikan dengan ukuran yang diinginkan */
+    height: auto;
+    margin-right: 20px; /* Memberikan ruang di antara logo dan navigasi */
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Mengatur agar elemen berada di ujung kiri dan kanan */
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Menengahkan navigasi di dalam container */
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+
+
+#popupNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#popupNav ul li {
+    margin: 0 10px;
+}
+
+#popupNav ul li:first-child {
+    margin-left: 0;
+}
+
+#popupNav ul li:last-child {
+    margin-right: 0;
+}
+
+#popupNav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#popupNav ul li a img {
+    margin-right: 5px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.judul-besar {
+    font-size: 4em;
+    color: rgb(150, 5, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .layanan {
+    font-size: 3em;
+    color: rgb(150, 5, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+.text-isi{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-kurir {
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.about-kurir h3 {
+    margin-top: 0;
+}
+
+.about-kurir p {
+    margin-bottom: 10px;
+}
+
+.service-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 650px;
+}
+
+.service-links a {
+    margin: 20px 100px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #a30c50;
+    background-color: #fefefe;
+    border-radius: 5px;
+}
+
+.btn-kirim {
+    padding: 20px 30px;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(135, 13, 68);
+    border: 2px solid;
+    border-radius: 30px; /* Mengatur sudut untuk membulat */
+    border-color: rgb(135, 13, 68) ;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  .btn-syarat {
+    padding: 20px 30px;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(135, 13, 68);
+    border: 2px solid;
+    border-radius: 30px; /* Mengatur sudut untuk membulat */
+    border-color: rgb(135, 13, 68) ;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  /* Hover efek ketika kursor diarahkan ke tombol */
+  .btn-kirim:hover {
+    border-color: rgb(135, 13, 68) ;
+    background-color: transparent;
+  }
+
+  .garis-pembatas {
+    border-bottom: 10px solid rgb(135, 13, 68); /* Garis bawah dengan ketebalan 1px dan warna abu-abu */
+    margin: 30px 0; /* Jarak di atas dan di bawah garis pembatas */
+    width:550px;
+  }
+
+  .kontak-info {
+    display: flex; /* Menggunakan flexbox untuk mengatur elemen di dalamnya */
+    align-items: center; /* Pusatkan vertikal konten */
+  }
+  
+  .logo {
+    width: 30px; /* Sesuaikan ukuran logo */
+    margin-right: 5px; /* Jarak antara logo dan nomor telepon */
+  }
+  
+  .nomor-telepon {
+    margin-bottom: 7px;
+    font-size: 18px; /* Ukuran teks nomor telepon */
+  }
+
+  .container {
+    display: flex;
+}
+
+.div1, .div2 {
+    width: 50%; /* Masing-masing div akan mengambil setengah lebar container */
+    border:none;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left; /* Menempatkan div secara horizontal */
+}
+
+.gambar-kafka {
+    float: right;
+    margin-right: 50px; /* Jarak dari sisi kanan */
+    width: 500px;
+}
+
+.gambar-kafka-air {
+    float: right;
+    margin-right: 50px; /* Jarak dari sisi kanan */
+    width: 400px;
+}
+
+.gambar-kafka-udara {
+    float: right;
+    margin-right: 50px; /* Jarak dari sisi kanan */
+    width: 500px;
+}
+
+/* Additional Footer Styles */
+footer {
+    position: fixed;
+    color: rgb(167, 7, 95);
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+}

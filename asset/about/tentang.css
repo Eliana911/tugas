@@ -1,0 +1,177 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-image: url(background/aboutt.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    color: white;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.2em;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#logo {
+    width: 650px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#popupNav {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Menengahkan konten */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.popup-logo-outside {
+    width: 45px; /* Sesuaikan dengan ukuran yang diinginkan */
+    height: auto;
+    margin-right: 20px; /* Memberikan ruang di antara logo dan navigasi */
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Mengatur agar elemen berada di ujung kiri dan kanan */
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Menengahkan navigasi di dalam container */
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+
+
+#popupNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#popupNav ul li {
+    margin: 0 10px;
+}
+
+#popupNav ul li:first-child {
+    margin-left: 0;
+}
+
+#popupNav ul li:last-child {
+    margin-right: 0;
+}
+
+#popupNav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#popupNav ul li a img {
+    margin-right: 5px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.about-kurir {
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.about-kurir h3 {
+    margin-top: 0;
+}
+
+.about-kurir p {
+    margin-bottom: 10px;
+}
+
+.service-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 650px;
+}
+
+.service-links a {
+    margin: 20px 100px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #a30c50;
+    background-color: #fefefe;
+    border-radius: 5px;
+}
+
+/* Additional Footer Styles */
+footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+}
